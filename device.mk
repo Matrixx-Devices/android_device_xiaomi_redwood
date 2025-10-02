@@ -7,9 +7,6 @@
 # NFC
 TARGET_NFC_SUPPORTED_SKUS := redwood
 
-# Run the script before copying files
-$(shell bash vendor/xiaomi/redwood-miuicamera/vendorsetup.sh)
-
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 TARGET_SUPPORTS_OMX_SERVICE := false
@@ -150,7 +147,7 @@ PRODUCT_COPY_FILES += \
 
 $(call soong_config_set,camera,override_format_from_reserved,true)
 $(call soong_config_set,camera,package_name,com.android.camera)
-$(call soong_config_set,libcameraservice,ext_lib,libcameraservice_extension.xiaomi_redwood)
+$(call soong_config_set,camera,libcameraservice_ext_lib,libcameraservice_extension.xiaomi_redwood)
 
 # Camera Extensions permissions
 PRODUCT_COPY_FILES += \
