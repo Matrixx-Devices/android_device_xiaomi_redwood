@@ -1,35 +1,36 @@
 [
   {
-    "remote"     : "github-non-los",
-    "repository" : "Evolution-X/vendor_evolution-priv_keys",
-    "target_path": "vendor/evolution-priv/keys",
-    "branch"     : "master"
+    "remote"     : "crdroid",
+    "repository" : "Matrixx-Devices/vendor_lineage-priv",
+    "target_path": "vendor_lineage-priv",
+    "branch"     : "15.0"
   },
   {
-    "remote"     : "github-non-los",
+    "remote"     : "crdroid",
     "repository" : "thepriyanshujangid/device_xiaomi_redwood-kernel",
     "target_path": "device/xiaomi/redwood-kernel",
     "branch"     : "Scarlet"
   },
   {
-    "repository" : "vendor_xiaomi_redwood",
+    "remote"     : "crdroid",
+    "repository" : "Matrixx-Devices/android_vendor_xiaomi_redwood",
     "target_path": "vendor/xiaomi/redwood",
-    "branch"     : "vic"
+    "branch"     : "15.0"
   },
   {
-    "remote"     : "github-non-los",
+    "remote"     : "crdroid",
     "repository" : "LineageOS/android_hardware_xiaomi",
     "target_path": "hardware/xiaomi",
     "branch"     : "lineage-22.2"
   },
   {
-    "remote"     : "github-non-los",
+    "remote"     : "crdroid",
     "repository" : "thepriyanshujangid/hardware_dolby",
     "target_path": "hardware/dolby",
     "branch"     : "sony_moto-ui"
   },
   {
-    "remote"     : "github-non-los",
+    "remote"     : "crdroid",
     "repository" : "thepriyanshujangid/vendor_xiaomi_redwood-miuicamera",
     "target_path": "vendor/xiaomi/redwood-miuicamera",
     "branch"     : "sixteen"
